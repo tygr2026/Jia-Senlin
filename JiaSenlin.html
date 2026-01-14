@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>甲森霖股份有限公司 | 園藝造景 · 專業植栽 · 環境清潔</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; scroll-behavior: smooth; }
+        /* 改為綠色系的漸層，象徵森林與自然 */
+        .hero-gradient { background: linear-gradient(135deg, #064e3b 0%, #10b981 100%); }
+        .service-card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+        
+        /* 裝飾性圖案背景 */
+        .pattern-grid {
+            background-image: radial-gradient(#10b981 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-gray-800">
+
+    <!-- 導覽列 -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-green-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <!-- 簡單的葉子 Logo -->
+                    <i class="fa-solid fa-leaf text-green-600 text-2xl"></i>
+                    <span class="text-2xl font-bold text-green-800 tracking-wider">甲森霖股份有限公司</span>
+                </div>
+                <div class="hidden lg:flex space-x-6">
+                    <a href="#home" class="hover:text-green-600 font-medium transition">首頁</a>
+                    <a href="#landscape" class="hover:text-green-600 font-medium transition">園藝造景</a>
+                    <a href="#planting" class="hover:text-green-600 font-medium transition">專業植栽</a>
+                    <a href="#cleaning" class="hover:text-green-600 font-medium transition">環境打掃</a>
+                    <a href="#maintenance" class="hover:text-green-600 font-medium transition">定期維護</a>
+                    <a href="#contact" class="bg-green-700 text-white px-5 py-2 rounded-full hover:bg-green-800 transition text-sm shadow-lg shadow-green-200">免費估價</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄區塊 -->
+    <section id="home" class="hero-gradient pt-32 pb-20 md:pt-48 md:pb-32 text-white relative overflow-hidden">
+        <!-- 裝飾背景圖案 -->
+        <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+            <i class="fa-solid fa-tree absolute top-10 left-10 text-9xl"></i>
+            <i class="fa-solid fa-cloud absolute bottom-10 right-10 text-9xl"></i>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 text-center relative z-10">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 drop-shadow-md">甲木森森，霖澤萬物</h1>
+            <p class="text-xl md:text-2xl text-green-50 mb-10 max-w-3xl mx-auto font-light">
+                從庭院造景到居家清潔，我們致力於為您打造一個綠意盎然、整潔舒適的生活空間。
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#landscape" class="bg-white text-green-900 px-8 py-4 rounded-lg font-bold shadow-lg hover:bg-stone-100 transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-tree"></i> 園藝服務
+                </a>
+                <a href="#cleaning" class="bg-green-600 text-white px-8 py-4 rounded-lg font-bold shadow-lg hover:bg-green-500 transition flex items-center justify-center gap-2 border border-green-400">
+                    <i class="fa-solid fa-broom"></i> 清潔服務
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 業務大項一：園藝造景 -->
+    <section id="landscape" class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">園藝造景設計</h2>
+                <div class="h-1 w-20 bg-green-600 mx-auto"></div>
+                <p class="mt-4 text-gray-600">賦予空間生命力，打造專屬您的城市綠洲</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <!-- 替代圖片的 CSS 視覺區塊 -->
+                    <div class="h-[400px] w-full bg-green-100 rounded-2xl shadow-xl flex flex-col items-center justify-center text-green-600 pattern-grid transform hover:scale-[1.02] transition duration-500 border-4 border-white">
+                        <i class="fa-solid fa-torii-gate text-8xl mb-4"></i>
+                        <span class="text-xl font-bold bg-white/80 px-4 py-1 rounded-full">日式庭園規劃</span>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2 space-y-6">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-green-100 p-3 rounded-lg"><i class="fa-solid fa-compass-drafting text-green-700 text-xl"></i></div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1 text-green-900">景觀規劃設計</h3>
+                            <p class="text-gray-600">從日式枯山水到歐式花園，我們的設計師根據地形與光照，為您量身繪製最完美的庭院藍圖。</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-stone-100 p-3 rounded-lg"><i class="fa-solid fa-scissors text-stone-600 text-xl"></i></div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1 text-stone-800">專業樹木修剪</h3>
+                            <p class="text-gray-600">具備專業樹藝知識，進行造型修剪、疏枝透光，維持樹型優美同時確保植物健康生長。</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-emerald-100 p-3 rounded-lg"><i class="fa-solid fa-umbrella-beach text-emerald-600 text-xl"></i></div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1 text-emerald-900">空中花園與陽台綠化</h3>
+                            <p class="text-gray-600">針對都市大樓空間，規劃防水與自動澆灌系統，讓小陽台也能變成充滿芬多精的私人森林。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 業務大項二：植栽種植 -->
+    <section id="planting" class="py-20 bg-stone-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">專業植栽種植</h2>
+                <div class="h-1 w-20 bg-emerald-600 mx-auto"></div>
+                <p class="mt-4 text-gray-600">選對植物、養好土壤，讓綠意長久延續</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-xl shadow-md service-card border-l-4 border-green-500">
+                        <h3 class="text-xl font-bold text-green-800 mb-2"><i class="fa-solid fa-seedling mr-2"></i>草皮鋪設與養護</h3>
+                        <p class="text-gray-600">提供台北草、地毯草等各式草種鋪設服務，包含整地、土壤改良與後續除雜草維護，打造翠綠草坪。</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md service-card border-l-4 border-emerald-500">
+                        <h3 class="text-xl font-bold text-emerald-700 mb-2"><i class="fa-solid fa-tree mr-2"></i>喬木與果樹種植</h3>
+                        <p class="text-gray-600">協助移植大型喬木、種植景觀果樹，提供專業斷根處理與支架固定，提高存活率。</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md service-card border-l-4 border-stone-500">
+                        <h3 class="text-xl font-bold text-stone-600 mb-2"><i class="fa-solid fa-flask mr-2"></i>病蟲害防治與施肥</h3>
+                        <p class="text-gray-600">診斷植物黃葉、枯萎原因，使用環保藥劑進行病蟲害防治，並依季節施用有機肥料。</p>
+                    </div>
+                </div>
+                <div>
+                     <!-- 替代圖片的 CSS 視覺區塊 -->
+                     <div class="h-[450px] w-full bg-emerald-100 rounded-2xl shadow-xl flex flex-col items-center justify-center text-emerald-600 pattern-grid border-4 border-white">
+                        <i class="fa-solid fa-hand-holding-droplet text-8xl mb-4"></i>
+                        <span class="text-xl font-bold bg-white/80 px-4 py-1 rounded-full">專業種植技術</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 業務大項三：環境打掃 -->
+    <section id="cleaning" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">環境清潔打掃</h2>
+                <div class="h-1 w-20 bg-teal-500 mx-auto"></div>
+                <p class="mt-4 text-gray-600">不只是掃地，更是對生活品質的堅持</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                     <!-- 替代圖片的 CSS 視覺區塊 -->
+                     <div class="h-[450px] w-full bg-teal-100 rounded-2xl shadow-xl flex flex-col items-center justify-center text-teal-600 pattern-grid border-4 border-white">
+                        <i class="fa-solid fa-sparkles text-8xl mb-4"></i>
+                        <span class="text-xl font-bold bg-white/80 px-4 py-1 rounded-full">煥然一新的空間</span>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2 space-y-6">
+                    <div class="bg-gray-50 p-6 rounded-xl shadow-sm service-card border-l-4 border-teal-600">
+                        <h3 class="text-xl font-bold text-teal-800 mb-2"><i class="fa-solid fa-house-chimney-crack mr-2"></i>裝潢細清與交屋清潔</h3>
+                        <p class="text-gray-600">針對剛裝潢好的房屋進行粉塵全面清除、殘膠去除、玻璃刮拭，讓您直接安心入住。</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-xl shadow-sm service-card border-l-4 border-cyan-500">
+                        <h3 class="text-xl font-bold text-cyan-700 mb-2"><i class="fa-solid fa-building mr-2"></i>社區與辦公室駐點</h3>
+                        <p class="text-gray-600">提供大樓公共區域維持、辦公室地毯清洗、地板打蠟拋光，維護企業與社區的門面形象。</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-xl shadow-sm service-card border-l-4 border-green-500">
+                        <h3 class="text-xl font-bold text-green-700 mb-2"><i class="fa-solid fa-scythe mr-2"></i>空地除草與廢棄物清運</h3>
+                        <p class="text-gray-600">針對荒廢空地進行除草機割草，並派遣車輛清運修剪下的樹枝、大型垃圾，恢復土地整潔。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 業務大項四：定期維護 -->
+    <section id="maintenance" class="py-20 bg-green-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">長期維護方案</h2>
+                <div class="h-1 w-20 bg-yellow-600 mx-auto"></div>
+                <p class="mt-4 text-gray-600">省心省力的包月託管服務</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- 方案卡片 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 bg-green-200 w-24 h-24 rounded-bl-full -mr-4 -mt-4 opacity-50 group-hover:scale-110 transition"></div>
+                    <div class="text-green-600 mb-4"><i class="fa-solid fa-calendar-check text-4xl"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">庭院定期維護</h3>
+                    <ul class="text-gray-600 space-y-3 mb-8">
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i>每月/每季定期修剪</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i>季節性施肥</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i>草坪打邊整理</li>
+                    </ul>
+                </div>
+
+                <!-- 方案卡片 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition relative overflow-hidden group border-2 border-green-500 transform md:-translate-y-4">
+                    <div class="absolute top-0 right-0 bg-green-500 w-24 h-24 rounded-bl-full -mr-4 -mt-4 opacity-20 group-hover:scale-110 transition"></div>
+                    <div class="text-green-600 mb-4"><i class="fa-solid fa-crown text-4xl"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">企業全能管家</h3>
+                    <ul class="text-gray-600 space-y-3 mb-8">
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i>室內清潔 + 戶外園藝</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i>植栽租賃與更換</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i>專屬單一窗口服務</li>
+                    </ul>
+                    <a href="#contact" class="block w-full py-2 bg-green-600 text-white text-center rounded-lg hover:bg-green-700">熱門推薦</a>
+                </div>
+
+                <!-- 方案卡片 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 bg-stone-200 w-24 h-24 rounded-bl-full -mr-4 -mt-4 opacity-50 group-hover:scale-110 transition"></div>
+                    <div class="text-stone-600 mb-4"><i class="fa-solid fa-recycle text-4xl"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">特殊清潔專案</h3>
+                    <ul class="text-gray-600 space-y-3 mb-8">
+                        <li><i class="fa-solid fa-check text-stone-500 mr-2"></i>大型廢棄物清運</li>
+                        <li><i class="fa-solid fa-check text-stone-500 mr-2"></i>高壓水槍清洗外牆/地板</li>
+                        <li><i class="fa-solid fa-check text-stone-500 mr-2"></i>災後環境復原</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯繫區塊 -->
+    <section id="contact" class="py-20 bg-stone-900 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">預約甲森霖服務</h2>
+                    <p class="text-stone-300 mb-8 text-lg">
+                        想讓家中庭院煥然一新？還是需要專業團隊協助打掃？<br>
+                        請填寫右側表單，或透過以下方式聯繫我們，將有專人為您免費估價。
+                    </p>
+                    <ul class="space-y-4 text-stone-300">
+                        <li class="flex items-center gap-4"><i class="fa-solid fa-phone text-green-500"></i> 客服專線：0800-888-XXX</li>
+                        <li class="flex items-center gap-4"><i class="fa-solid fa-envelope text-green-500"></i> 聯絡信箱：service@jiasenlin.com.tw</li>
+                        <li class="flex items-center gap-4"><i class="fa-solid fa-location-dot text-green-500"></i> 服務範圍：全台皆可服務 (偏遠地區請先洽詢)</li>
+                        <li class="flex items-center gap-4"><i class="fa-brands fa-line text-green-500"></i> LINE 官方帳號：@ForestLife</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-2xl text-gray-900 shadow-2xl border-t-8 border-green-600">
+                    <form onsubmit="event.preventDefault(); alert('感謝您的預約，甲森霖專員將盡快與您聯繫安排場勘！');">
+                        <div class="grid grid-cols-1 gap-4">
+                            <input type="text" placeholder="聯絡人姓名" class="p-3 bg-stone-50 rounded-lg outline-none focus:ring-2 focus:ring-green-600 border border-stone-200">
+                            <input type="tel" placeholder="聯絡電話" class="p-3 bg-stone-50 rounded-lg outline-none focus:ring-2 focus:ring-green-600 border border-stone-200">
+                            
+                            <select class="p-3 bg-stone-50 rounded-lg outline-none focus:ring-2 focus:ring-green-600 border border-stone-200 text-gray-500">
+                                <option>選擇服務項目</option>
+                                <option>園藝造景設計</option>
+                                <option>樹木修剪/植栽</option>
+                                <option>居家/裝潢清潔</option>
+                                <option>除草/廢棄物清運</option>
+                            </select>
+
+                            <textarea placeholder="請簡述您的需求或坪數..." rows="3" class="p-3 bg-stone-50 rounded-lg outline-none focus:ring-2 focus:ring-green-600 border border-stone-200"></textarea>
+                            
+                            <button class="bg-green-700 text-white py-4 rounded-lg font-bold hover:bg-green-800 transition shadow-lg flex justify-center items-center gap-2">
+                                <i class="fa-solid fa-paper-plane"></i> 立即送出詢問
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="py-10 bg-black text-stone-500 text-center border-t border-stone-800">
+        <p>&copy; 2024 甲森霖股份有限公司 Jia Sen Lin Co., Ltd. 版權所有</p>
+        <div class="flex justify-center gap-4 mt-4">
+            <a href="#" class="hover:text-green-500"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="hover:text-green-500"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
